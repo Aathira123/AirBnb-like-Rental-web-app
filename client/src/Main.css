@@ -1,0 +1,231 @@
+html,body{
+    
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.footer-class{
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  background-color: rgba(166, 164, 164, 0.77);
+  z-index: -1;
+}
+.myBooking{
+  margin-top: 25px;
+  padding:20px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: bisque;
+  margin-bottom: 30px;
+}
+.lisitems{
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.error{
+  color:red;
+}
+.properties{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 50px;
+   
+}
+.prop-desc{
+  font-weight: bolder;
+}
+.search-icon{
+    background-color: rgb(79, 74, 79); 
+    padding: 8px;
+}
+nav ul {
+  white-space:nowrap;
+}
+.test{
+ display:flex;
+ flex-direction: row;
+
+}
+.check{
+display:flex;
+justify-content: space-between;
+background-color: aliceblue;
+}
+.li_class{
+  margin-bottom: 10px;
+}.flex-check{
+  display:flex;
+  justify-content: space-evenly;
+  margin-right: 20px;
+}
+
+.guests-button{
+    position:absolute;
+    height: 100%
+}
+
+.icon1 {
+  padding: 10px;
+  min-width: 40px;
+}
+.nav-search{
+  font: 16px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  border: 2px solid rgba(99, 97, 97, 0.967);
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.nav-style{
+  font-weight: bold;
+  font-size: large;
+}
+
+.carousal-image{
+  height: 200px !important;
+  border-radius: 20px;
+}
+.search1{
+   display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.jumbotron{
+    background-image: url("../public/img12.jpg");
+    filter: blur(2px);
+    height:300px;
+    z-index: -1;
+   
+  
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered1{
+ margin:0 auto;
+}
+.amenities{
+  margin: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.529);
+  background-color: #6c757d;
+  width:20rem;
+  padding: 15px;
+  font-size: larger;
+  font-family: 'Baskerville';
+  
+  box-shadow: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dropdown-custom{
+
+  padding:10px;
+  background-color: #6c757d;
+ z-index:50;
+}
+.form-custom{
+  margin: 150px;
+   max-width: 500px; 
+  padding: 30px 30px 60px 30px;
+   background-color: rgba(113, 107, 107, 0.895); 
+   font-family: Baskerville ; 
+  border:10px solid gray;
+}
+.font-fam{
+  font-family: "Baskerville";
+}
+.navbar-color{
+    background-color: #66575785;
+}
+.card-css{
+    border-radius: 20px;
+    margin-left: 20px;
+   margin-bottom: 20px;
+}
+
+.sidebar {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #66575785;
+    overflow-x: hidden;
+  }
+  .sidebar-items{
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgba(12, 11, 10, 0.579);
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: bolder;
+  }
+  .property-width{
+    width: 17rem;
+  }
+  .property-width1{
+    
+    width: 24rem;
+    height:17rem;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .copyright-class{
+    background-color: rgba(0, 0, 0, 0.2)
+  }
+
+.ContactDiv{
+  border: 1px solid black;
+  padding:10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  .bookingBoxClass{
+    border: 1px solid gray;
+    padding:30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow:3px 3px #6c757d;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+  
