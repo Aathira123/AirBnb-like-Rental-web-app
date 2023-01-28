@@ -15,5 +15,7 @@ Host can :
 Guest user can :
 
 1)Reserve a property if they are available
+
 2) View all the bookings
-4) Cancel the booking if it is within the 48 hour time frame
+
+3) Cancel the booking if it is within the 48 hour time frame
