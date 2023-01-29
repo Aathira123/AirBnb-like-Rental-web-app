@@ -8,12 +8,12 @@ Some of the features included are
 
 Host can :
 
-1) Create new properties with all the necessary details
-2) Delete the property (mark them as unavailable)
-3) View all the properties owned by them
+- Create new properties with all the necessary details
+- Delete the property (mark them as unavailable)
+- View all the properties owned by them
 
 Guest user can :
 
-1)Reserve a property if they are available
-2) View all the bookings
-3) Cancel the booking if it is within the 48 hour time frame
+- Reserve a property if they are available
+- View all the bookings
+- Cancel the booking if it is within the 48 hour time frame
